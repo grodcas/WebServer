@@ -3,12 +3,11 @@
     {% load static %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
-    {% load bootstrap5 %}
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}
-
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
 </head>
-
+<body>   
+  <script src="{% static 'js/bootstrap.js' %}"></script>
+</body>
 <div class="topnav" id="myTopnav">
     <a href="#home" class="active">Home</a>
     <a href="#news">News</a>
